@@ -1,0 +1,16 @@
+SQLite format 3@  ---�
+�������w�MtableuserduserdCREATE TABLE userd (id integer PRIMARY KEY NOT NULL, acronym varchar (20) UNIQUE NOT NULL, email varchar (80), name varchar (80), password varchar (255), created datetime, updated datetime, deleted datetime, active datetime))=indexsqlite_autoindex_userd_1userd��|�[tableuseruserCREATE TABLE user
+(
+    id integer primary key not null ,
+    acronym varchar(20) unique not null,
+    email varchar(80),
+    name varchar(80),
+    password varchar(255),
+    created datetime,
+    updated datetime,
+    deleted datetime,
+    active datetime
+)';indexsqlite_autoindex_user_1user �o��
+''�33doedoe@dbwebb.seJohn/Jane Doe$2y$10$EgAySot/UUJPdmZru2WH1.Y7B9Vvk2qy7D6yUQDhLNUHbFyjyWffe2016-07-09 21:47:142016-07-09 21:47:14�+'�33adminadmin@dbwebb.seAdministrator$2y$10$M9hFMCsKMiY322MJkXzFrOlK0Rwyk3ngNTj5ZBaFwGuSLJhIhzgIe2016-07-09 21:47:142016-07-09 21:47:14
+���doe    admin �o��
+''�33doedoe@dbwebb.seJohn/Jane Doe$2y$10$gPkBk8Y5VkI8yJR.1kJfjO3jg54dH.NT6iZvs8SkOICsNzkoub1tS2016-07-07 21:16:322016-07-07 21:16:32�+'�33adminadmin@dbwebb.seAdministrator$2y$10$qydtIOnp8UwWyJpTYwSgh.33s.tdX0UCZhy/vrsAHNn0MCz4sUxNq2016-07-07 21:16:322016-07-07 21:16:32doe    admin
