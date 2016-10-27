@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS "user";
+CREATE TABLE "user" ("id" INTEGER PRIMARY KEY  NOT NULL , "acronym" VARCHAR NOT NULL  UNIQUE , "email" VARCHAR, "name" VARCHAR, "password" VARCHAR, "created" DATETIME, "updated" DATETIME, "deleted" DATETIME, "active" DATETIME);
